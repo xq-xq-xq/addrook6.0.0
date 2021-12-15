@@ -1,0 +1,4 @@
+#### 配置所需要的夹子的环境配置信息
+spring:
+  profiles:
+    active: dev

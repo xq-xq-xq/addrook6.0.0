@@ -1,0 +1,166 @@
+[2021-12-15 20:03:17.486] [background-preinit] INFO  o.h.validator.internal.util.Version : HV000001: Hibernate Validator 6.1.7.Final
+[2021-12-15 20:03:17.520] [main] INFO  cn.ekgc.SystemApplicationStarter : Starting SystemApplicationStarter on xiqian with PID 19140 (E:\code\addrook6.0.0\addrook-backend\target\classes started by Litego in E:\code\addrook6.0.0)
+[2021-12-15 20:03:17.521] [main] INFO  cn.ekgc.SystemApplicationStarter : The following profiles are active: dev
+[2021-12-15 20:03:18.266] [main] WARN  o.m.s.mapper.ClassPathMapperScanner : No MyBatis mapper was found in '[cn.ekgc.addrook.dao]' package. Please check your configuration.
+[2021-12-15 20:03:18.503] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9999 (http)
+[2021-12-15 20:03:18.510] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-9999"]
+[2021-12-15 20:03:18.510] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-12-15 20:03:18.510] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2021-12-15 20:03:18.567] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-12-15 20:03:18.567] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1009 ms
+[2021-12-15 20:03:18.991] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-12-15 20:03:19.070] [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+[2021-12-15 20:03:19.222] [main] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+[2021-12-15 20:03:20.096] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-9999"]
+[2021-12-15 20:03:20.105] [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+[2021-12-15 20:03:20.105] [main] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+[2021-12-15 20:03:20.108] [main] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+[2021-12-15 20:03:20.109] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-12-15 20:03:20.112] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Pausing ProtocolHandler ["http-nio-9999"]
+[2021-12-15 20:03:20.112] [main] INFO  o.a.catalina.core.StandardService : Stopping service [Tomcat]
+[2021-12-15 20:03:20.114] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Stopping ProtocolHandler ["http-nio-9999"]
+[2021-12-15 20:03:20.114] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Destroying ProtocolHandler ["http-nio-9999"]
+[2021-12-15 20:03:20.144] [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+[2021-12-15 20:03:39.646] [background-preinit] INFO  o.h.validator.internal.util.Version : HV000001: Hibernate Validator 6.1.7.Final
+[2021-12-15 20:03:39.674] [main] INFO  c.e.addrook.SystemApplicationStarter : Starting SystemApplicationStarter on xiqian with PID 10348 (E:\code\addrook6.0.0\addrook-backend\target\classes started by Litego in E:\code\addrook6.0.0)
+[2021-12-15 20:03:39.675] [main] INFO  c.e.addrook.SystemApplicationStarter : The following profiles are active: dev
+[2021-12-15 20:03:40.357] [main] WARN  o.m.s.mapper.ClassPathMapperScanner : No MyBatis mapper was found in '[cn.ekgc.addrook.dao]' package. Please check your configuration.
+[2021-12-15 20:03:40.615] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9999 (http)
+[2021-12-15 20:03:40.622] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-9999"]
+[2021-12-15 20:03:40.622] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-12-15 20:03:40.622] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2021-12-15 20:03:40.700] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-12-15 20:03:40.700] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 981 ms
+[2021-12-15 20:03:41.102] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-12-15 20:03:41.171] [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+[2021-12-15 20:03:41.312] [main] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+[2021-12-15 20:03:42.036] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-9999"]
+[2021-12-15 20:03:42.043] [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+[2021-12-15 20:03:42.044] [main] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+[2021-12-15 20:03:42.047] [main] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+[2021-12-15 20:03:42.048] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-12-15 20:03:42.050] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Pausing ProtocolHandler ["http-nio-9999"]
+[2021-12-15 20:03:42.050] [main] INFO  o.a.catalina.core.StandardService : Stopping service [Tomcat]
+[2021-12-15 20:03:42.053] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Stopping ProtocolHandler ["http-nio-9999"]
+[2021-12-15 20:03:42.053] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Destroying ProtocolHandler ["http-nio-9999"]
+[2021-12-15 20:03:42.078] [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+[2021-12-15 20:04:58.605] [background-preinit] INFO  o.h.validator.internal.util.Version : HV000001: Hibernate Validator 6.1.7.Final
+[2021-12-15 20:04:58.633] [main] INFO  cn.ekgc.SystemApplicationStarter : Starting SystemApplicationStarter on xiqian with PID 19080 (E:\code\addrook6.0.0\addrook-backend\target\classes started by Litego in E:\code\addrook6.0.0)
+[2021-12-15 20:04:58.634] [main] INFO  cn.ekgc.SystemApplicationStarter : The following profiles are active: dev
+[2021-12-15 20:04:59.330] [main] WARN  o.m.s.mapper.ClassPathMapperScanner : No MyBatis mapper was found in '[cn.ekgc.addrook.dao]' package. Please check your configuration.
+[2021-12-15 20:04:59.629] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 22222 (http)
+[2021-12-15 20:04:59.637] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-22222"]
+[2021-12-15 20:04:59.637] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-12-15 20:04:59.637] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2021-12-15 20:04:59.720] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-12-15 20:04:59.720] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1047 ms
+[2021-12-15 20:05:00.206] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-12-15 20:05:00.290] [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+[2021-12-15 20:05:00.452] [main] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+[2021-12-15 20:05:01.307] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-22222"]
+[2021-12-15 20:05:01.326] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 22222 (http) with context path ''
+[2021-12-15 20:05:01.519] [main] INFO  cn.ekgc.SystemApplicationStarter : Started SystemApplicationStarter in 3.293 seconds (JVM running for 4.573)
+[2021-12-15 20:05:04.703] [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+[2021-12-15 20:05:04.708] [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+[2021-12-15 20:05:04.709] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-12-15 20:05:08.654] [background-preinit] INFO  o.h.validator.internal.util.Version : HV000001: Hibernate Validator 6.1.7.Final
+[2021-12-15 20:05:08.676] [main] INFO  cn.ekgc.SystemApplicationStarter : Starting SystemApplicationStarter on xiqian with PID 7532 (E:\code\addrook6.0.0\addrook-backend\target\classes started by Litego in E:\code\addrook6.0.0)
+[2021-12-15 20:05:08.677] [main] INFO  cn.ekgc.SystemApplicationStarter : The following profiles are active: dev
+[2021-12-15 20:05:09.324] [main] WARN  o.m.s.mapper.ClassPathMapperScanner : No MyBatis mapper was found in '[cn.ekgc.addrook.dao]' package. Please check your configuration.
+[2021-12-15 20:05:09.549] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 22222 (http)
+[2021-12-15 20:05:09.555] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-22222"]
+[2021-12-15 20:05:09.555] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-12-15 20:05:09.556] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2021-12-15 20:05:09.611] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-12-15 20:05:09.611] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 896 ms
+[2021-12-15 20:05:09.987] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-12-15 20:05:10.073] [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+[2021-12-15 20:05:10.227] [main] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+[2021-12-15 20:05:11.048] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-22222"]
+[2021-12-15 20:05:11.062] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 22222 (http) with context path ''
+[2021-12-15 20:05:11.205] [main] INFO  cn.ekgc.SystemApplicationStarter : Started SystemApplicationStarter in 2.879 seconds (JVM running for 3.718)
+[2021-12-15 20:05:40.183] [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+[2021-12-15 20:05:40.186] [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+[2021-12-15 20:05:40.187] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-12-15 20:05:42.800] [background-preinit] INFO  o.h.validator.internal.util.Version : HV000001: Hibernate Validator 6.1.7.Final
+[2021-12-15 20:05:42.825] [main] INFO  cn.ekgc.SystemApplicationStarter : Starting SystemApplicationStarter on xiqian with PID 10876 (E:\code\addrook6.0.0\addrook-backend\target\classes started by Litego in E:\code\addrook6.0.0)
+[2021-12-15 20:05:42.826] [main] INFO  cn.ekgc.SystemApplicationStarter : The following profiles are active: dev
+[2021-12-15 20:05:43.517] [main] WARN  o.m.s.mapper.ClassPathMapperScanner : No MyBatis mapper was found in '[cn.ekgc.addrook.dao]' package. Please check your configuration.
+[2021-12-15 20:05:43.747] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 22222 (http)
+[2021-12-15 20:05:43.752] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-22222"]
+[2021-12-15 20:05:43.752] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-12-15 20:05:43.752] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2021-12-15 20:05:43.811] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-12-15 20:05:43.811] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 940 ms
+[2021-12-15 20:05:44.182] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-12-15 20:05:44.260] [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+[2021-12-15 20:05:44.409] [main] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+[2021-12-15 20:05:45.203] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 22222 (http) with context path ''
+[2021-12-15 20:05:45.348] [main] INFO  cn.ekgc.SystemApplicationStarter : Started SystemApplicationStarter in 2.898 seconds (JVM running for 3.762)
+[2021-12-15 20:05:45.672] [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+[2021-12-15 20:05:45.676] [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+[2021-12-15 20:05:45.676] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-12-15 20:06:31.180] [background-preinit] INFO  o.h.validator.internal.util.Version : HV000001: Hibernate Validator 6.1.7.Final
+[2021-12-15 20:06:31.200] [main] INFO  c.e.addrook.SystemApplicationStarter : Starting SystemApplicationStarter on xiqian with PID 12628 (E:\code\addrook6.0.0\addrook-backend\target\classes started by Litego in E:\code\addrook6.0.0)
+[2021-12-15 20:06:31.200] [main] INFO  c.e.addrook.SystemApplicationStarter : The following profiles are active: dev
+[2021-12-15 20:06:31.841] [main] WARN  o.m.s.mapper.ClassPathMapperScanner : No MyBatis mapper was found in '[cn.ekgc.addrook.dao]' package. Please check your configuration.
+[2021-12-15 20:06:32.095] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 22222 (http)
+[2021-12-15 20:06:32.101] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-22222"]
+[2021-12-15 20:06:32.101] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-12-15 20:06:32.102] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2021-12-15 20:06:32.173] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-12-15 20:06:32.173] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 940 ms
+[2021-12-15 20:06:32.535] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-12-15 20:06:32.603] [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+[2021-12-15 20:06:32.742] [main] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+[2021-12-15 20:06:33.555] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-22222"]
+[2021-12-15 20:06:33.568] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 22222 (http) with context path ''
+[2021-12-15 20:06:33.709] [main] INFO  c.e.addrook.SystemApplicationStarter : Started SystemApplicationStarter in 2.855 seconds (JVM running for 3.661)
+[2021-12-15 20:06:46.925] [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+[2021-12-15 20:06:46.929] [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+[2021-12-15 20:06:46.930] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-12-15 20:06:50.184] [background-preinit] INFO  o.h.validator.internal.util.Version : HV000001: Hibernate Validator 6.1.7.Final
+[2021-12-15 20:06:50.205] [main] INFO  cn.ekgc.SystemApplicationStarter : Starting SystemApplicationStarter on xiqian with PID 18088 (E:\code\addrook6.0.0\addrook-backend\target\classes started by Litego in E:\code\addrook6.0.0)
+[2021-12-15 20:06:50.206] [main] INFO  cn.ekgc.SystemApplicationStarter : The following profiles are active: dev
+[2021-12-15 20:06:50.867] [main] WARN  o.m.s.mapper.ClassPathMapperScanner : No MyBatis mapper was found in '[cn.ekgc.addrook.dao]' package. Please check your configuration.
+[2021-12-15 20:06:51.107] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 22222 (http)
+[2021-12-15 20:06:51.112] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-22222"]
+[2021-12-15 20:06:51.113] [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+[2021-12-15 20:06:51.113] [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2021-12-15 20:06:51.168] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-12-15 20:06:51.169] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 926 ms
+[2021-12-15 20:06:51.488] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2021-12-15 20:06:51.604] [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+[2021-12-15 20:06:51.750] [main] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+[2021-12-15 20:06:52.529] [main] INFO  o.a.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-22222"]
+[2021-12-15 20:06:52.545] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 22222 (http) with context path ''
+[2021-12-15 20:06:52.689] [main] INFO  cn.ekgc.SystemApplicationStarter : Started SystemApplicationStarter in 2.836 seconds (JVM running for 3.672)
+[2021-12-15 20:06:56.068] [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+[2021-12-15 20:06:56.071] [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+[2021-12-15 20:06:56.071] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
