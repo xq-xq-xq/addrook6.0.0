@@ -1,4 +1,4 @@
-package com.xq.litego;
+package com.litego.witmed;
 
 import static org.junit.Assert.assertTrue;
 
